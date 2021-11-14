@@ -1,0 +1,68 @@
+/********* hoja de estilo para la presentación de hallowen *********/
+
+@font-face {
+    font-family: 'estonia';
+    src: url("../fonts/estonia/Estonia-Regular.ttf");
+}
+
+body {background-color: black;
+    color:blanchedalmond;
+    font-family: 'estonia';}
+
+#container2 {width: 1920px; 
+        height: 1080px; 
+        margin: auto; 
+        background-image: url(..//images/insideHouse.png);
+        position: relative; 
+        }
+
+#ghost {
+    width: 100px;
+    height: 100px;
+    left: 500px; 
+    top:500px;
+    position: absolute;
+    animation-name: ghost;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    cursor:pointer;
+    visibility:hidden;
+    z-index: 3;
+}
+
+@keyframes ghost {
+    from {visibility:visible; left: 1900px; top:500px;}
+    to {left: 500px; top:500px; }
+}
+
+#you_died {
+    width: 1920px;
+    height: 1080px;
+    visibility:hidden;
+    z-index: 3;
+}
+
+#dsgwyndolin {
+    width: 400px;
+    height: 400px;
+    left: 764px; 
+    top:300px;
+    position: absolute;
+    cursor:pointer;
+}
+
+#gwyndolin {
+    width: 400px;
+    height: 400px;
+}
+
+#p1 {position:absolute;
+    top:200px;
+    left:920px;
+    text-shadow:5px 5px 5px red;
+    font-size:25px;}
+
+#ydimg {
+    width: 100%;
+    z-index: 3;
+}

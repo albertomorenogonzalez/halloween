@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Halloween Party</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/halloween.css">
+    <script src="./javascripts/halloween.js"></script>
+</head>
+<body>
+    <!-- ATENCIÓN: ESTE EJERCICIO NO ES RESPONSIVE -->
+    <audio id="musicaFondo1" autoplay>
+        <source src="./sounds/outdoors_music.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="screamerad" onload="auto">
+        <source src="./sounds/screamer.mpeg" type="audio/mpeg">
+    </audio>
+    <audio id="and_yell" onload="auto">
+        <source src="./sounds/ald_yell.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="footsteps" onload="auto">
+        <source src="./sounds/footsteps.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="door_opening" onload="auto">
+        <source src="./sounds/door_opening.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="spScSk" onload="auto">
+        <source src="./sounds/spooky_scary_skeletons.mp3" type="audio/mpeg">
+    </audio>
+    <div id="container" onload="sonar('musicaFondo1')">
+        <p id="p1">Feliz Jawelin</p>
+        <p id="p2">Don't knock on the window</p>
+        <div id="ventana" onclick="mostrar('screamer'),sonar 
+        ('screamerad'),parar('musicaFondo1'), parar('spScSk')";>
+        </div> 
+        <img id="screamer" src="images/screamer.gif">
+        <p id="p3">Don't come here...</p>
+        <a href="./index2.html";>
+        <div id="puenteHaciaPuerta">
+        </div>
+        </a>
+        <p id="p4">Don't touch the monster</p>
+        <p id="p4v2">I told you ! Now It is angry. Look for a shelter, HURRY UP !</p>
+        <div id="and" onclick="sonar('and_yell'),parar('musicaFondo1'),ocultar('p4'),
+        mostrar('p4v2')";>
+            <img id="andimg" src="./images/anor_londo_d.png">
+        </div>
+        <p id="p5">Don't touch the cross</p>
+        <p id="p5v2">...</p>
+        <div id="spookyScarySkeletons" onclick="mostrar('spScSk1'),
+        mostrar('spScSk2'),mostrar('spScSk3'), sonar('spScSk'),parar('musicaFondo1'),ocultar('p5'),mostrar('p5v2')";>
+        </div>
+        <img id="spScSk1" src="./images/spooky_scary_skeletons.gif">
+        <img id="spScSk2" src="./images/spooky_scary_skeletons.gif">
+        <img id="spScSk3" src="./images/spooky_scary_skeletons.gif">
+    </div>
+</body>
+</html>

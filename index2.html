@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Halloween Party</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/halloween2.css">
+    <script src="./javascripts/halloween2.js"></script>
+</head>
+<body>
+    <audio id="dsgt" autoplay>
+        <source src="./sounds/gwyndolin.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="ghostboo" autoplay>
+        <source src="./sounds/ghost.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="died" onload="auto">
+        <source src="./sounds/you_died.mp3" type="audio/mpeg">
+    </audio>
+    <div id="container2" onload="sonar('musicaFondo2')";>
+        <p id="p1">Don't disturb it</p>
+        <div id="ghost" onload="sonar('ghostboo')"; onclick="ocultar('ghost'), ocultar ('p1')";>
+        </div>
+        <img id="ghost" src="./images/ghost.png">
+        <div id="dsgwyndolin" onclick="ocultar('p1'), mostrar('you_died'), sonar('died'), ocultar ('gwyndolin')";>
+            <img id="gwyndolin" src="./images/gwindolin.png">
+        </div>
+        <div id="you_died">
+            <img id="ydimg" src="./images/died.gif">
+        </div>    
+    </div>
+</body>
+</html>

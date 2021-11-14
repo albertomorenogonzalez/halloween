@@ -1,0 +1,138 @@
+/********* hoja de estilo para la presentación de hallowen *********/
+/********* IMPORTANTE: no es responsive *********/
+
+@font-face {
+    font-family: 'VladTepesII(Vlads_Dad)';
+    src: url("../fonts/bloodsw/blooods_.ttf");
+}
+
+@font-face {
+    font-family: 'estonia';
+    src: url("../fonts/estonia/Estonia-Regular.ttf");
+}
+
+body {background-color: black;
+        color:blanchedalmond;
+        font-family: 'estonia';}
+
+#container {width: 1920px; /* ancho de la imagen */
+            height: 1080px; /* largo de la imagen */
+            margin: auto; /* centrado de la escena */
+            background-image: url(..//images/background.png);
+            position: relative; /* el container se mueve */
+            }
+
+#p1 {position:absolute; /* fijado en su contenedor */
+    top:5px; /* coordenada vertical */
+    left:30px; /*coordenada horizontal */
+    text-shadow:5px 5px 5px red;
+    font-family: 'VladTepesII(Vlads_Dad)';
+    font-size:2cm;}
+
+#p2 {position:absolute;
+    top:250px;
+    left:650px;
+    text-shadow:5px 5px 5px red;
+    font-size:25px;}
+
+#p3 {position:absolute;
+    top:750px;
+    left:1050px;
+    text-shadow:5px 5px 5px red;
+    font-size:25px;}
+
+#p4 {position:absolute;
+    top:280px;
+    left:940px;
+    text-shadow:5px 5px 5px red;
+    font-size:25px;}
+
+#p4v2 {position:absolute;
+    top:280px;
+    left:830px;
+    text-shadow:5px 5px 5px red;
+    font-size:25px;
+    visibility:hidden;
+    }
+
+#p5 {position:absolute;
+    top:750px;
+    left:285px;
+    text-shadow:5px 5px 5px red;
+    font-size:25px;}
+
+#p5v2 {position:absolute;
+    top:500px;
+    left:350px;
+    text-shadow:5px 5px 5px red;
+    font-size:4em;
+    visibility:hidden;
+}
+
+#ventana {position:absolute;
+        top:320px;
+        left:725px;
+        width: 25px;
+        height: 65px;
+        cursor:pointer;    
+    }
+
+#puenteHaciaPuerta {position:absolute;
+        top:800px;
+        left:1050px;
+        width:300px;
+        height:190px;
+        cursor:pointer; 
+        z-index: 3;
+}
+
+#and {position:absolute;
+    top:360px;
+    left:900px;
+    width:225px;
+    height:198.8px;
+    cursor:pointer;
+}
+
+#spookyScarySkeletons {position:absolute;
+    top:800px;
+    left:270px;
+    width:155px;
+    height:200px;
+    cursor:pointer;
+}
+
+#screamer {position:absolute;
+        margin: auto;
+        width: 100%;
+        visibility:hidden; /*el screamer de entrada no se ve */
+        z-index: 3;
+}
+
+#andimg {
+    width: 100%;
+}
+
+#spScSk1 {position:absolute;
+    top:685px;
+    left:50px;
+    width:416.7px;
+    height:416.7px;
+    visibility:hidden;
+}
+
+#spScSk2 {position:absolute;
+    top:685px;
+    left:750px;
+    width:416.7px;
+    height:416.7px;
+    visibility:hidden;
+}
+
+#spScSk3 {position:absolute;
+    top:685px;
+    left:1450px;
+    width:416.7px;
+    height:416.7px;
+    visibility:hidden;
+}
