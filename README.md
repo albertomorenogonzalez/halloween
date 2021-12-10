@@ -1,6 +1,6 @@
 # Halloween
 
-Alojamiento web para la página de halloween hecha para la asignatura de Lenguajes de Marcas
+Página web de halloween hecha para la asignatura de Lenguajes de Marcas
 
 Recomendación: abrila desde el navegador Mozilla Firefox
 
